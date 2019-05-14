@@ -40,4 +40,3 @@ public/uploads
 /config/initializers/devise.rb
 
 .idea
-db/schema.rb
