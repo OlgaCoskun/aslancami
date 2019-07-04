@@ -2,7 +2,7 @@
 <nav class="navbar navbar-expand-sm">
   <div class="container">
     <ul class="nav nav-pills">
-      <li class="nav-link"><%= link_to "", root_path, class: "fa fa-home", id: "icon" %></li>
+      <li class="nav-link"><%= link_to "", root_path, class: "fas fa-home", id: "icon" %></li>
 
       <li class="nav-link"><%= link_to "yönetim ve üyeleri", yonetims_path %></li>
       <li class="nav-link"><%= link_to "galeri", galeris_path %></li>
@@ -12,12 +12,12 @@
     </ul>
 
     <ul class="navbar-nav navbar-right">
-      <li><%= link_to " Üye ol", new_user_registration_path, class: "glyphicon glyphicon-user" %></li>
+      <li><%= link_to " Üye ol", new_user_registration_path, class: "fas fa-user" %></li>
       <li><% if user_signed_in? %>
           <%= link_to "Çıkış", destroy_user_session_path, method: :delete, id: "cikis" %>
           <p id="curuser"><%= current_user.email %></p>
         <% else %>
-          <%= link_to " Giriş Yap", new_user_session_path, class: "glyphicon glyphicon-log-in" %>
+          <%= link_to " Giriş Yap", new_user_session_path, class: "fas fa-sign-in-alt" %>
         <% end %>
       </li>
     </ul>
