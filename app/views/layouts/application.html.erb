@@ -1,15 +1,38 @@
 <!DOCTYPE html>
-<html>
+<html lang="tr">
   <head>
-    <title>Aslancami</title>
+    <title><%= yield(:title) %> | Aslancamikoyudernegi</title>
     <%= csrf_meta_tags %>
     <%= csp_meta_tag %>
 
     <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!--    <link href="https://fonts.googleapis.com/css?family=Open+Sans&display=swap" rel="stylesheet">-->
+<!--    <script src="https://use.fontawesome.com/1af24c5af0.js"></script>-->
+
+
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <%= favicon_link_tag 'fav/fav.ico' %>
+    <%= favicon_link_tag 'fav/fav.ico', rel: 'apple-touch-icon', type: 'image/png' %>
+
+    <%= render 'layouts/favicon' %>
+
   </head>
 
   <body>
-    <%= yield %>
+  <%= render 'layouts/navigation' %>
+
+
+  <%= render 'layouts/logo' %>
+
+
+  <%= yield %>
+
+  <%= render 'layouts/footer' %>
   </body>
 </html>
