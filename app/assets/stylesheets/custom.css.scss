@@ -2,11 +2,9 @@
 @import "font-awesome";
 
 * {
-  @font-face {
-    font-family: 'Droid Sans', sans-serif;
-    src: url('/app/assets/fonts/DroidSans.ttf');
-  }
+  font-family: droid-sans, sans-serif;
   font-style: normal;
+  font-weight: 400;
   margin: 0;
   padding: 0;
 }
