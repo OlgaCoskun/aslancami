@@ -9,21 +9,21 @@
   padding: 0;
 }
 
-.navbar-expand-sm {
+.navbar {
   margin-bottom: 0;
   background: #801089;
   text-transform: uppercase;
   font-size: 14px;
 }
 
-.navbar-expand-sm a {
+.navbar a {
   color: #fff;
+  text-decoration: none;
 }
 
-.navbar-expand-sm a:hover {
-  color: #801089;
+.navbar a:hover {
+  color: #adf300;
 }
-
 
 #icon {
   font-size: 22px;
