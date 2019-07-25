@@ -4,21 +4,21 @@
     <ul class="nav nav-pills">
       <li class="nav-link"><%= link_to "", root_path, class: "fas fa-home", id: "icon" %></li>
 
-      <li class="nav-link"><%= link_to "yönetim ve üyeleri", yonetims_path %></li>
-      <li class="nav-link"><%= link_to "galeri", galeris_path %></li>
-      <li class="nav-link"><%= link_to "iletişim", iletisim_path %></li>
-      <li class="nav-link"><%= link_to "duyurular", duyurulars_path %></li>
-      <li class="nav-link"><%= link_to "blog", articles_path %></li>
+      <li class="nav-link"><%= link_to t(:'navigation.insanlar'), yonetims_path %></li>
+      <li class="nav-link"><%= link_to t(:'navigation.galeri'), galeris_path %></li>
+      <li class="nav-link"><%= link_to t(:'navigation.iletisim'), iletisim_path %></li>
+      <li class="nav-link"><%= link_to t(:'navigation.duyurular'), duyurulars_path %></li>
+      <li class="nav-link"><%= link_to t(:'navigation.blog'), articles_path %></li>
     </ul>
 
     <ul class="navbar-nav ml-auto">
-      <li class=" nav-item nav-link"><%= link_to " Üye ol", new_user_registration_path, class: "fas fa-user" %></li>
+      <li class=" nav-item nav-link"><%= link_to t(:'navigation.uye_ol'), new_user_registration_path, class: "fas fa-user" %></li>
       <li class="nav-link">
         <% if user_signed_in? %>
-          <%= link_to "Çıkış", destroy_user_session_path, method: :delete, id: "cikis" %>
+          <%= link_to t(:'navigation.cikis'), destroy_user_session_path, method: :delete, id: "cikis" %>
           <p id="curuser"><%= current_user.email %></p>
         <% else %>
-          <%= link_to " Giriş Yap", new_user_session_path, class: "fas fa-sign-in-alt" %>
+          <%= link_to t(:'navigation.giris_yap'), new_user_session_path, class: "fas fa-sign-in-alt" %>
         <% end %>
       </li>
     </ul>

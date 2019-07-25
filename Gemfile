@@ -32,6 +32,7 @@ gem 'bootsnap', '>= 1.4.2', require: false
 gem 'cancancan'
 gem 'devise'
 gem 'font-awesome-sass', '~> 5.8.1'
+gem 'rails-i18n', '~> 6.0.0.beta1' # For 6.0.0.beta1 or higher
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
