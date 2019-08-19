@@ -7,20 +7,15 @@
         <%= image_tag("boss.jpg", class: "img-fluid rounded", alt: "baskan", id: "boss") %>
 
         <div id="name" class="caption">
-          Başkan <br> Nihat Coşkun
+          <%= t('boss') %> <br> <%= t('boss_name') %>
         </div>
       </div>
     </div>
 
     <div id="merhaba" class="col-sm-8">
-      <p>Merhaba</p>
-      <p>Derneğimiz 2015 yılında Aslancamii köyü ve mahallelerinden dernekleşmenin önemini bilen hizmet gönüllüleri tarafından kurulmuştur.
-        Derneğimiz ilke olarak yardımlaşma ve dayanışmayı görev bilmiştir.
-        Dernek yönetim kurulu, üyeleri ve aileleri derneğimizin gelişiminde önemli katkıları olmuştur.
-        Derneğimiz sosyal bir dernek olarak büyümeye devam edecektir.
-        Saygılarımla.</p>
-      <p>Herşey Aslancami için</p>
-      <br>
+      <p><%= t('merhaba') %></p>
+      <p><%= t('merhaba_text') %></p>
+      <p><%= t('byebye') %></p>
     </div>
   </div>
 </div>

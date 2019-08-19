@@ -30,7 +30,7 @@ gem 'bootsnap', '>= 1.4.2', require: false
 
 # Authorization
 gem 'cancancan'
-gem 'devise'
+gem 'devise', github: 'plataformatec/devise'
 gem 'font-awesome-sass', '~> 5.8.1'
 gem 'rails-i18n', '~> 6.0.0.beta1' # For 6.0.0.beta1 or higher
 

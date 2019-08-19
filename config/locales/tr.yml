@@ -5,9 +5,22 @@ tr:
     iletisim: iletişim
     duyurular: duyurular
     blog: blog
-    uye_ol: " Üye ol"
-    cikis: Çıkış
-    giris_yap: " Giriş Yap"
+    uye_ol: " üye ol"
+    cikis: çıkış
+    giris_yap: " giriş yap"
 
   h1: "Ordu Fatsa Anadolu Yakası Aslancami Köyü Derneği"
-
+  merhaba: Merhaba
+  merhaba_text: Derneğimiz 2015 yılında Aslancamii köyü ve mahallelerinden dernekleşmenin önemini bilen hizmet gönüllüleri tarafından kurulmuştur.
+    Derneğimiz ilke olarak yardımlaşma ve dayanışmayı görev bilmiştir.
+    Dernek yönetim kurulu, üyeleri ve aileleri derneğimizin gelişiminde önemli katkıları olmuştur.
+    Derneğimiz sosyal bir dernek olarak büyümeye devam edecektir.
+    Saygılarımla.
+  byebye: Herşey Aslancami için
+  boss: Başkan
+  boss_name: Nihat Coşkun
+  footer:
+    phone: ' +90 538 471 52 52'
+    email: ' aslancami@aslancamikoyudernegi.com.tr'
+    address: ' Dumlupınar mah Ordu sok №19 Pendik/Istanbul'
+    made_by: 'Made by Olga Coşkun'

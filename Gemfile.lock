@@ -1,3 +1,14 @@
+GIT
+  remote: https://github.com/plataformatec/devise.git
+  revision: a79057070c60a274936b8421cd35846e03aa08bd
+  specs:
+    devise (4.7.0)
+      bcrypt (~> 3.0)
+      orm_adapter (~> 0.1)
+      railties (>= 4.1.0)
+      responders
+      warden (~> 1.2.3)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -64,8 +75,6 @@ GEM
       pry-rails
       railties
     bcrypt (3.1.13)
-    bcrypt-ruby (3.1.5)
-      bcrypt (>= 3.1.3)
     better_errors (2.5.1)
       coderay (>= 1.0.0)
       erubi (>= 1.0.0)
@@ -89,10 +98,6 @@ GEM
     coderay (1.1.2)
     concurrent-ruby (1.1.5)
     crass (1.0.4)
-    devise (1.5.4)
-      bcrypt-ruby (~> 3.0)
-      orm_adapter (~> 0.0.3)
-      warden (~> 1.1)
     erubi (1.8.0)
     ffi (1.11.1)
     font-awesome-sass (5.8.1)
@@ -123,7 +128,7 @@ GEM
     nio4r (2.4.0)
     nokogiri (1.10.4)
       mini_portile2 (~> 2.4.0)
-    orm_adapter (0.0.7)
+    orm_adapter (0.5.0)
     pg (1.1.4)
     pry (0.12.2)
       coderay (~> 1.1.0)
@@ -171,6 +176,9 @@ GEM
     rb-inotify (0.10.0)
       ffi (~> 1.0)
     regexp_parser (1.6.0)
+    responders (3.0.0)
+      actionpack (>= 5.0)
+      railties (>= 5.0)
     ruby_dep (1.5.0)
     rubyzip (1.2.3)
     sass (3.7.4)
@@ -242,7 +250,7 @@ DEPENDENCIES
   byebug
   cancancan
   capybara (>= 2.15)
-  devise
+  devise!
   font-awesome-sass (~> 5.8.1)
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
